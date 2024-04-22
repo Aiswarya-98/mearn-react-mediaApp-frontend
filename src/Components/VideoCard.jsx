@@ -53,13 +53,11 @@ function VideoCard({ displayData, setDeleteVideoStatus, insideCategory }) {
 
             {/* a prop named insideCategory is passed from Category component
             to hide the delete button from the Videocard when insideCategory= true */}
-            {
-              (insideCategory = true ? ("") : (
-                <button className="btn" onClick={() => removeVideo(displayData?.id)}>
-                  <i class="fa-solid fa-trash text-danger"></i>
-                </button>
-              ))
-            }
+            {insideCategory ? null : (
+              <button className="btn" onClick={() => removeVideo(displayData?.id)}>
+                <i class="fa-solid fa-trash text-danger"></i>
+              </button>
+            )}
           </Card.Title>
         </Card.Body>
       </Card>

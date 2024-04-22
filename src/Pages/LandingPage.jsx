@@ -71,11 +71,11 @@ function LandingPage() {
 
       {/* next section for a video and content */}
 
-      <div className="container border border-secondary rounded p-5 b-5 mt-5 d-flex align-items-center justify-content-between w-100" style={{ marginTop: "100px" }}>
+      <div className="container border border-secondary rounded p-5 b-5 mt-5 d-flex align-items-center justify-content-between w-100 mb-5" style={{ marginTop: "100px" }}>
         <div className="col-lg-5">
           <h3 className="mb-3 text-warning">SIMPLE, POWERFUL & FAST</h3>
 
-          <h6 className="mb-5">
+          <h6 className="mb-5" >
             <span className="fs-5 fw-bolder text-warning">Play Everything</span>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias distinctio iste veniam at repellendus, illum, incidunt, deleniti quia maxime suscipit quam voluptate. Facere, quia officiis. Fugit aut odit modi nihil.
           </h6>
 

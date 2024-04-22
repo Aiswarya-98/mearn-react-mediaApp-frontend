@@ -5,13 +5,13 @@ import { Link } from "react-router-dom"
 function Footer() {
   return (
     <div>
-      <MDBFooter className="text-center" color="white" bgColor="dark">
+      <MDBFooter className="text-center" color="black" bgColor="secondary">
         <MDBContainer className="p-4">
           <section className="">
             <MDBRow>
               <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
                 <h5 className="text-uppercase">
-                  <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+                  <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
                     <i className="fa-solid fa-play fa-beat-fade me-2"></i>
                     MEDIA PLAYER
                   </Link>
@@ -20,7 +20,7 @@ function Footer() {
                 <br />
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <h6 href="#!" className="text-white" style={{ textAlign: "left" }}>
+                    <h6 href="#!" className="text-dark" style={{ textAlign: "justify" }}>
                       Lorem, ipsum dolor aerat in hic illum voluptates cupiditate aperiam natus, molestiae pariatur labore, magnam itaque atque vero, totam ut!
                     </h6>
                   </li>
@@ -33,17 +33,17 @@ function Footer() {
 
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+                    <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
                       Landing Page
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/home"} style={{ textDecoration: "none", color: "white" }}>
+                    <Link to={"/home"} style={{ textDecoration: "none", color: "black" }}>
                       Home Page
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/history"} style={{ textDecoration: "none", color: "white" }}>
+                    <Link to={"/history"} style={{ textDecoration: "none", color: "black" }}>
                       Watch History
                     </Link>
                   </li>
@@ -56,17 +56,17 @@ function Footer() {
 
                 <ul className="list-unstyled mb-0">
                   <li>
-                    <a href="#!" className="text-white" style={{ textDecoration: "none" }}>
+                    <a href="#!" className="text-dark" style={{ textDecoration: "none" }}>
                       React
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white" style={{ textDecoration: "none" }}>
+                    <a href="#!" className="text-dark" style={{ textDecoration: "none" }}>
                       React Bootstrap
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white" style={{ textDecoration: "none" }}>
+                    <a href="#!" className="text-dark" style={{ textDecoration: "none" }}>
                       Bootswatch
                     </a>
                   </li>
@@ -86,19 +86,19 @@ function Footer() {
                   <br />
                   <li>
                     <a href="#!" className="text-white">
-                      <MDBBtn outline color="light" floating className="m-1" href="#!" role="button">
+                      <MDBBtn outline color="dark" floating className="m-1" href="#!" role="button">
                         <MDBIcon fab icon="twitter" />
                       </MDBBtn>
 
-                      <MDBBtn outline color="light" floating className="m-1" href="#!" role="button">
+                      <MDBBtn outline color="dark" floating className="m-1" href="#!" role="button">
                         <MDBIcon fab icon="instagram" />
                       </MDBBtn>
 
-                      <MDBBtn outline color="light" floating className="m-1" href="#!" role="button">
+                      <MDBBtn outline color="dark" floating className="m-1" href="#!" role="button">
                         <MDBIcon fab icon="linkedin-in" />
                       </MDBBtn>
 
-                      <MDBBtn outline color="light" floating className="m-1" href="#!" role="button">
+                      <MDBBtn outline color="dark" floating className="m-1" href="#!" role="button">
                         <MDBIcon fab icon="facebook-f" />
                       </MDBBtn>
                     </a>

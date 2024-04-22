@@ -8,7 +8,7 @@ function Header() {
     <div>
       {/* NAVBAR FROM BOOTS WATCH */}
 
-      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
           <Link to={"/"} style={{ textDecoration: "none" }}>
             <a class="navbar-brand">

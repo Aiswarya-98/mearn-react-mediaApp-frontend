@@ -91,7 +91,7 @@ function Category() {
     //get video details
     const { data } = await getAVideo(videoId)
     console.log(data)
-    
+
     // get category details
     const selectedCategory = allCategories?.find((item) => item.id === categoryId)
     selectedCategory.allVideos.push(data)
@@ -122,17 +122,13 @@ function Category() {
 
               {/* display selected category video */}
               <Row>
-                {
-                  item?.allVideos && item?.allVideos.map(
-                    card=>(
-                      <Col sm={12}>
-                        <VideoCard displayData ={card} insideCategory={true}/>
-                      </Col>
-                    )
-                  )
-                }
+                {item?.allVideos &&
+                  item?.allVideos.map((card) => (
+                    <Col sm={12}>
+                      <VideoCard displayData={card} insideCategory={true} />
+                    </Col>
+                  ))}
               </Row>
-
             </div>
           ))
         ) : (
